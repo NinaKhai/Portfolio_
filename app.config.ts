@@ -13,7 +13,7 @@ export default defineAppConfig({
       logo: {
         path: '#', // path of the logo
         pathDark: '#', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'Amalina' // alt of the logo
+        alt: '#' // alt of the logo
       }
     },
     footer: {
