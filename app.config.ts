@@ -9,7 +9,7 @@ export default defineAppConfig({
       height: 300
     },
     
-    },
+    
     footer: {
       credits: {
         enabled: false // possible value are : true | false
