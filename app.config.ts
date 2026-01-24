@@ -12,7 +12,7 @@ export default defineAppConfig({
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '#', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        pathDark: '#', // path of the logo in dark mode, leave this empty if you want to use the same logo
         alt: 'Amalina' // alt of the logo
       }
     },
