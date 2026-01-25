@@ -1,4 +1,4 @@
-    export default defineAppConfig({
+export default defineAppConfig({
   alpine: {
     title: 'Amalina',
     description: 'Critical & Creative Thinking for Information Technology Solution',
@@ -7,17 +7,18 @@
       position: 'right',
       logo: {
         text: 'Amalina'
-      }  
-    
+      }
+    },
+
     footer: {
       credits: {
-        enabled: false // possible value are : true | false
-        
+        enabled: false
       },
-      navigation: true, // possible value are : true | false
-      alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
-      message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
+      navigation: true,
+      alignment: 'center',
+      message: 'Follow me on'
     },
+
     socials: {
       twitter: '#',
       instagram: '#',
@@ -27,6 +28,7 @@
         href: '#'
       }
     },
+
     form: {
       successMessage: 'Message sent. Thank you!'
     }
