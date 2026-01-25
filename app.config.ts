@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'Amalina',
     description: 'Critical & Creative Thinking for Information Technology Solution',
     image: {
-      src: '/social-card-preview.png',
+      src: '#',
       alt: 'Smart Device - Smart Shoes.',
       width: 400,
       height: 300
