@@ -1,14 +1,13 @@
-export default defineAppConfig({
+    export default defineAppConfig({
   alpine: {
     title: 'Amalina',
     description: 'Critical & Creative Thinking for Information Technology Solution',
-    image: {
-      src: '#',
-      alt: 'Smart Device - Smart Shoes.',
-      width: 400,
-      height: 300
-    },
-    
+
+    header: {
+      position: 'right',
+      logo: {
+        text: 'Amalina'
+      }  
     
     footer: {
       credits: {
